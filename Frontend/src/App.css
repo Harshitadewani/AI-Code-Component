@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+:root {
+  --primary-color: #090908;
+  --secondary-color: #141319;
+  --tertiary-bg: #17171c;
+}
+
+.sp-text {
+  background: linear-gradient(to top, #c084fc, #a855f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.icons{
+  padding: 15px;
+  font-size: 20px;
+  border: 2px solid #1f2937;
+  border-radius:10px ;
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}
