@@ -12,6 +12,9 @@ app.use(express.json());
 const ai = new GoogleGenAI({
   apiKey: process.env.GEMINI_API_KEY,
 });
+app.get("/", (req, res) => {
+  res.send("Backend is live! 🚀");
+});
 
 // 🔥 SAME LOGIC AS FRONTEND getResponse()
 app.post("/generate", async (req, res) => {
